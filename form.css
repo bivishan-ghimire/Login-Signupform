@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: tan;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* css for form box */
+.formbox{
+    width: 400px;
+    height: 500px;
+    background-color: silver;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+/* for heading */
+.heading{
+    width: 200px;
+    height: 100px;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    justify-content: space-between;
+}
+.heading a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    display: inline-flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.heading #login{
+    color:brown;
+    font-weight: bold;
+    position: relative;
+}
+.heading .login:after{
+    position: absolute;
+    border: none;
+    content: "" ;
+}
+
+#errorhandel{
+    color: red;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.content{
+    display: inline-flex;
+    overflow:hidden;
+}
+
+form{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* css in al input types */
+input[type=text],input[type=number],input[type=email],input[type=password]{
+    display: block;
+    position: relative;
+    border: 5px solid darkcyan;
+    padding: 12px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing:border-box;
+    font-size: 18px;
+    outline: none;
+    border-radius: 25px;
+}
+
+input[type=text]:hover,input[type=number]:hover,input[type=email]:hover,input[type=password]{
+    border: 5px solid;
+    position: relative;
+    border:5px solid darkgoldenrod;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type=submit]{
+    /* display:block;
+    position: relative;
+    border: 3px solid #df80ff;
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 25px;
+    background-color:#600080 ;
+    text-align:center;
+    font-size: 20px;
+    color: #ffffff;
+	cursor:pointer;
+    outline: none; */
+    display: block;
+    position: relative;
+    border: 5px solid darkorange;
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+    background-color: thistle;
+    font-size: 20px;
+    color:chocolate;
+    outline: none;
+}

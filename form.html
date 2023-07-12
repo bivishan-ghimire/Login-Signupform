@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="form.js">
+    <title>Login/SignUp</title>
+</head>
+<body>
+    <!-- div for middle box -->
+    <div class="formbox">
+        <div class="page">
+        <div class="heading">
+            <a id="login" class="active" href="#login">login</a>
+            <a id="signup" href="#signup">signup</a>
+        </div>
+        <div id="errorHandel"></div>
+        <div class="content">
+            <form class="login">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <br><br>
+
+                <input type="submit" value="Login">                <a href="#">Forgot Password</a>
+            </form>
+
+            <!-- Signup form -->
+            <form class="signup" name="signupform">
+                <input type="text" name="name" placeholder="Fullname">
+                <input type="number" name="number" placeholder="Mobile Number">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <input type="password" name="password" placeholder="Confirm Password">
+                <input type="submit" value="SignUp">                
+            
+
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
